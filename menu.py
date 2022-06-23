@@ -88,7 +88,7 @@ class InfoMenu:
         self.text = text
     
     def __repr__(self) -> str:
-        return self.text + "\nPress enter to continue"
+        return self.text + "\nTryck på enter för att fortsätta"
     
     def print(self):
         clear()
